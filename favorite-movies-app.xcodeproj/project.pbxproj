@@ -12,6 +12,8 @@
 		525EF5B41F03410100779A29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525EF5B21F03410100779A29 /* Main.storyboard */; };
 		525EF5B61F03410100779A29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 525EF5B51F03410100779A29 /* Assets.xcassets */; };
 		525EF5B91F03410100779A29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525EF5B71F03410100779A29 /* LaunchScreen.storyboard */; };
+		525EF5C11F035CBC00779A29 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525EF5C01F035CBC00779A29 /* CustomTableViewCell.swift */; };
+		525EF5C31F035EEE00779A29 /* movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525EF5C21F035EEE00779A29 /* movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		525EF5B51F03410100779A29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		525EF5B81F03410100779A29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		525EF5BA1F03410100779A29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		525EF5C01F035CBC00779A29 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		525EF5C21F035EEE00779A29 /* movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = movie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				525EF5B51F03410100779A29 /* Assets.xcassets */,
 				525EF5B71F03410100779A29 /* LaunchScreen.storyboard */,
 				525EF5BA1F03410100779A29 /* Info.plist */,
+				525EF5C01F035CBC00779A29 /* CustomTableViewCell.swift */,
+				525EF5C21F035EEE00779A29 /* movie.swift */,
 			);
 			path = "favorite-movies-app";
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				525EF5C11F035CBC00779A29 /* CustomTableViewCell.swift in Sources */,
 				525EF5B11F03410000779A29 /* ViewController.swift in Sources */,
+				525EF5C31F035EEE00779A29 /* movie.swift in Sources */,
 				525EF5AF1F03410000779A29 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +310,7 @@
 				525EF5BF1F03410100779A29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
