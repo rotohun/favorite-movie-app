@@ -14,6 +14,7 @@
 		525EF5B91F03410100779A29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525EF5B71F03410100779A29 /* LaunchScreen.storyboard */; };
 		525EF5C11F035CBC00779A29 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525EF5C01F035CBC00779A29 /* CustomTableViewCell.swift */; };
 		525EF5C31F035EEE00779A29 /* movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525EF5C21F035EEE00779A29 /* movie.swift */; };
+		525EF5C51F03E56A00779A29 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525EF5C41F03E56A00779A29 /* SearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		525EF5BA1F03410100779A29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		525EF5C01F035CBC00779A29 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		525EF5C21F035EEE00779A29 /* movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = movie.swift; sourceTree = "<group>"; };
+		525EF5C41F03E56A00779A29 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				525EF5BA1F03410100779A29 /* Info.plist */,
 				525EF5C01F035CBC00779A29 /* CustomTableViewCell.swift */,
 				525EF5C21F035EEE00779A29 /* movie.swift */,
+				525EF5C41F03E56A00779A29 /* SearchViewController.swift */,
 			);
 			path = "favorite-movies-app";
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				525EF5C51F03E56A00779A29 /* SearchViewController.swift in Sources */,
 				525EF5C11F035CBC00779A29 /* CustomTableViewCell.swift in Sources */,
 				525EF5B11F03410000779A29 /* ViewController.swift in Sources */,
 				525EF5C31F035EEE00779A29 /* movie.swift in Sources */,

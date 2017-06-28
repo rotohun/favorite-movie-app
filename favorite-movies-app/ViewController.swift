@@ -53,7 +53,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     override func viewWillAppear(_ animated: Bool) {
         mainTableView.reloadData()
         if favoriteMovies.count == 0{
-            favoriteMovies.append(Movie(id: "tt05944", title: "Monster Rancher", year: "1999", imageUrl: "http://static.zerochan.net/Monster.Rancher.full.179196.jpg", plot: "About monsters"))
+            favoriteMovies.append(Movie(id: "tt05944", title: "Monster Rancher", year: "1999", imageUrl: "https://i.ytimg.com/vi/A1AKlib6CRw/hqdefault.jpg", plot: "About monsters"))
         }
         
         super.viewWillAppear(animated)
